@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Processors">
+      <UniqueIdentifier>{1ab1e3bc-4476-45a6-a763-0ee20b0f4a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{70ef399c-6af6-441b-bdf1-b588a9a1fb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{adc318b3-f916-4833-9d16-ac8efa486ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processors">
+      <UniqueIdentifier>{0ecb97bf-9308-43eb-8af3-4437b042528a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event">
+      <UniqueIdentifier>{1faa84fb-6f9d-4df8-8464-eab5c6da3e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{880c8e73-366d-45e1-9085-8f3b28d1eccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event\Event Handlers">
+      <UniqueIdentifier>{9c35d74c-5695-4dd5-871c-00ff29e1c543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event\Event Handlers">
+      <UniqueIdentifier>{8c342458-cb4d-4ad4-ac40-075416a4ab2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{98bd0cfb-b09a-4201-8736-b133467c4f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{d6019e73-0af5-4256-bf07-e46d04e150b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\player">
+      <UniqueIdentifier>{96ff83d7-c8a5-4f64-a46c-f32f26cd77db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Player">
+      <UniqueIdentifier>{0809444c-7a8a-4b3e-a1e9-ad4d26b59fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{1d1a21bb-f3b8-43c2-9529-12af3df07b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{c4fcee6e-bee3-4a30-b588-cf53a7fafb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{a3297d4c-fb14-42df-b22d-8bbda74c2a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{e1d44938-df6a-4069-b7e3-92e65b7f6380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\collisions">
+      <UniqueIdentifier>{16a58a2e-2f43-45b5-99c9-6eefe0dac133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{3508f0e5-9079-4a32-a6d4-0cb9add5ce2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{cf653713-b642-4704-a1ed-6faa78f50496}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventQueue.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="CEvent.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="InputProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="EvKeyPressed.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayer.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="EvMapEnd.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvSwapMap.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Source Files\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EvCreate.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvCreateEnt.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvDestroyEnt.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvDestroy.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitBox.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="EvCollision.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvFrame.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="EvMousePress.cpp">
+      <Filter>Source Files\Event\Event Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="phys.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GLContext.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4D.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GLMatrix.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsProcessor.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="CContent.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawList.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventQueue.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="CEvent.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="EvKeyPressed.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayer.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="EvMapEnd.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EvSwapMap.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Header Files\Entities\player</Filter>
+    </ClInclude>
+    <ClInclude Include="EvCreate.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EvCreateEnt.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntCreation.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EvDestroyEnt.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EvDestroy.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitBox.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EvCollision.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EvFrame.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="EvMousePress.h">
+      <Filter>Header Files\Event\Event Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="phys.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GLContext.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMatrix.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="CContent.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawList.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

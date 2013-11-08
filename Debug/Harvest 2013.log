@@ -1,0 +1,35 @@
+﻿Build started 8/21/2013 1:42:07 AM.
+     1>Project "D:\Documents\Harvest 2013\Code\Harvest 2013\Harvest 2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Programs\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\downloads\boost_1_54_0\boost_1_54_0 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CEventProcessor.cpp GameProcessor.cpp InputProcessor.cpp winMain.cpp
+         winMain.cpp
+         InputProcessor.cpp
+         GameProcessor.cpp
+         CEventProcessor.cpp
+         Generating Code...
+       Link:
+         G:\Programs\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\Harvest 2013.exe" /INCREMENTAL /NOLOGO lib/OIS/OIS_static_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\Harvest 2013.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\Harvest 2013.lib" /MACHINE:X86 Debug\CEntity.obj
+         Debug\CEvent.obj
+         Debug\CEventProcessor.obj
+         Debug\CEventQueue.obj
+         Debug\GameProcessor.obj
+         Debug\InputProcessor.obj
+         Debug\KeyPressed.obj
+         Debug\winMain.obj
+     1>OIS_static_d.lib(OISEffect.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(OISException.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(OISForceFeedback.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(OISInputManager.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(OISJoyStick.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(OISKeyboard.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(Win32ForceFeedback.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(Win32InputManager.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(Win32JoyStick.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(Win32KeyBoard.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>OIS_static_d.lib(Win32Mouse.obj) : warning LNK4204: 'D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Harvest 2013.vcxproj -> D:\Documents\Harvest 2013\Code\Harvest 2013\Debug\Harvest 2013.exe
+     1>Done Building Project "D:\Documents\Harvest 2013\Code\Harvest 2013\Harvest 2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.04

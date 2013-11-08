@@ -1,0 +1,317 @@
+﻿Build started 11/7/2013 10:48:55 PM.
+     1>Project "D:\Documents\Harvest 2013\Code\Harvest2013\Harvest 2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Programs\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ID:\downloads\boost_1_54_0\boost_1_54_0 /I"D:\Documents\fmod\FMOD Programmers API Windows\api\inc" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt AudioProcessor.cpp CContent.cpp CDrawList.cpp CEntity.cpp CEvent.cpp CEventProcessor.cpp CEventQueue.cpp CHitBox.cpp CMap.cpp CPlayer.cpp CSprite.cpp EvCollision.cpp EvCreate.cpp EvCreateEnt.cpp EvDestroy.cpp EvDestroyEnt.cpp EvFrame.cpp EvMapEnd.cpp EvMousePress.cpp EvSwapMap.cpp GameProcessor.cpp GLContext.cpp GLMatrix.cpp GraphicsProcessor.cpp phys.cpp Vector3D.cpp InputProcessor.cpp EvKeyPressed.cpp CLayer.cpp MapProcessor.cpp vector2D.cpp Vector4D.cpp winMain.cpp
+         winMain.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         Vector4D.cpp
+         vector2D.cpp
+         MapProcessor.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CLayer.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvKeyPressed.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         InputProcessor.cpp
+     1>InputProcessor.cpp(60): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>InputProcessor.cpp(61): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+         Vector3D.cpp
+         phys.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>phys.cpp(64): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GraphicsProcessor.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         GLMatrix.cpp
+         GLContext.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>GLContext.cpp(75): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         GameProcessor.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>GameProcessor.cpp(77): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         EvSwapMap.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvMousePress.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvMapEnd.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvFrame.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvDestroyEnt.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvDestroy.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvCreateEnt.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         EvCreate.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         EvCollision.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CSprite.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         CPlayer.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CMap.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CHitBox.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CEventQueue.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CEventProcessor.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CLayer.h(21): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CEvent.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CEntity.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(18): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(19): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\phys.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CEntity.h(60): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>CEntity.cpp(34): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>CEntity.cpp(58): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CEntity.cpp(59): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CEntity.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CEntity.cpp(98): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         CDrawList.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         CContent.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(70): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CSprite.h(75): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(26): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\documents\harvest 2013\code\harvest2013\CContent.h(31): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>CContent.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 G:\Programs\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         AudioProcessor.cpp
+     1>d:\documents\harvest 2013\code\harvest2013\AudioProcessor.h(30): warning C4091: 'static ' : ignored on left of 'CAudioProcessor' when no variable is declared
+     1>AudioProcessor.cpp(27): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>AudioProcessor.cpp(56): warning C4806: '|' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>AudioProcessor.cpp(56): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+         Generating Code...
+     1>d:\documents\harvest 2013\code\harvest2013\cmap.cpp(116): warning C4700: uninitialized local variable 'isSolid' used
+       Link:
+         G:\Programs\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Harvest 2013\Code\Harvest2013\x64\Debug\Harvest 2013.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Documents\Harvest 2013\Code\Harvest 2013\lib" lib/OIS/OIS_d.lib lib/FMod/FModex64_vc.lib opengl32.lib glew32.lib lib/FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Harvest 2013\Code\Harvest2013\x64\Debug\Harvest 2013.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Harvest 2013\Code\Harvest2013\x64\Debug\Harvest 2013.lib" /MACHINE:X64 x64\Debug\AudioProcessor.obj
+         x64\Debug\CContent.obj
+         x64\Debug\CDrawList.obj
+         x64\Debug\CEntity.obj
+         x64\Debug\CEvent.obj
+         x64\Debug\CEventProcessor.obj
+         x64\Debug\CEventQueue.obj
+         x64\Debug\CHitBox.obj
+         x64\Debug\CMap.obj
+         x64\Debug\CPlayer.obj
+         x64\Debug\CSprite.obj
+         x64\Debug\EvCollision.obj
+         x64\Debug\EvCreate.obj
+         x64\Debug\EvCreateEnt.obj
+         x64\Debug\EvDestroy.obj
+         x64\Debug\EvDestroyEnt.obj
+         x64\Debug\EvFrame.obj
+         x64\Debug\EvMapEnd.obj
+         x64\Debug\EvMousePress.obj
+         x64\Debug\EvSwapMap.obj
+         x64\Debug\GameProcessor.obj
+         x64\Debug\GLContext.obj
+         x64\Debug\GLMatrix.obj
+         x64\Debug\GraphicsProcessor.obj
+         x64\Debug\phys.obj
+         x64\Debug\Vector3D.obj
+         x64\Debug\InputProcessor.obj
+         x64\Debug\EvKeyPressed.obj
+         x64\Debug\CLayer.obj
+         x64\Debug\MapProcessor.obj
+         x64\Debug\vector2D.obj
+         x64\Debug\Vector4D.obj
+         x64\Debug\winMain.obj
+         Harvest 2013.vcxproj -> D:\Documents\Harvest 2013\Code\Harvest2013\x64\Debug\Harvest 2013.exe
+     1>Done Building Project "D:\Documents\Harvest 2013\Code\Harvest2013\Harvest 2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:49.17
